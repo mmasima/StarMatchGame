@@ -55,7 +55,7 @@ const utils = {
   // pick a random number between min and max (edges included)
   random: (min, max) => min + Math.floor(Math.random() * (max - min + 1)),
 
-  // Given an array of numbers and a max...
+  // Given an array of numbers and a max...`   
   // Pick a random sum (< max) from the set of all available sums in arr
   randomSumIn: (arr, max) => {
     const sets = [[]];
@@ -73,5 +73,6 @@ const utils = {
     return sums[utils.random(0, sums.length - 1)];
   },
 };
+
 
 export default StarMatch;
